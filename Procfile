@@ -1,1 +1,1 @@
-test: gunicorn bot:app
+hoge: python bot.py
