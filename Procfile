@@ -1,1 +1,1 @@
-test: python bot.py
+test: gunicorn bot:app --log-file -
