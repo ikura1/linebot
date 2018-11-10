@@ -1,3 +1,3 @@
 <?php
-header('Location+ /inde.html');
+header('Location: /inde.html');
 ?>
