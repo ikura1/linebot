@@ -12,4 +12,5 @@ def hoge():
 if __name__ == "__main__":
     # off: debug=True
     # off: port=5000
-    app.run(host="0.0.0.0")
+    # off: host="0.0.0.0"
+    app.run()
