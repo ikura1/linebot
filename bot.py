@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 from flask import Flask
 
 app = Flask(__name__)
@@ -10,6 +9,7 @@ def hoge():
 
 
 if __name__ == "__main__":
+    # off: -*- encoding: utf-8 -*-
     # off: debug=True
     # off: port=5000
     # off: host="0.0.0.0"
